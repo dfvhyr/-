@@ -54,37 +54,41 @@ iface enp0s3 inet dhcp
  - [x] 靶机可以直接访问攻击者主机
       * intnet1内的xp-victim-1：
   
-    ![](img/1.1.jpg)
+      ![](img/1.1.jpg)
 
       * intnet1内的Kail-victim-1：
   
-    ![](img/1.2.jpg)
+      ![](img/1.2.jpg)
 
       * intnet2内的xp-victim-2：
   
-    ![](img/1.3.jpg)
+      ![](img/1.3.jpg)
 
       * intnet2内的Ubuntu-victim-2：
-* 
-    ![](img/1.4.jpg)
+  
+      ![](img/1.4.jpg)
 
     - [x] 攻击者主机无法直接访问靶机
-    ![](img/kail4.jpg)
+      ![](img/kail4.jpg)
 
     - [x] 网关可以直接访问攻击者主机和靶机
       * 访问攻击者主机：
-    ![](img/2.1.jpg)
+
+      ![](img/2.1.jpg)
+
       * 访问靶机：
-    ![](img/2.2.jpg)
+
+      ![](img/2.2.jpg)
 
     - [x] 靶机的所有对外上下行流量必须经过网关
       * intnet1：XP访问cuc官网，Kail同时ping www.bilibili.com。
-    ![](img/3.1.jpg)
+
+      ![](img/3.1.jpg)
+
       * intnet2：Ubuntu通过Firefox访问知乎，XP同时ping wwww.zihhu.com。这里由于数据太多未能截全。
   
-    ![](img/3.1.jpg)
+      ![](img/3.1.jpg)
 
-    ![](img/XP1flow.PNG)  
     - [x] 所有节点均可以访问互联网
   
       这里我以能否ping通百度作为标准。
