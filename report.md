@@ -73,14 +73,20 @@ iface enp0s3 inet dhcp
 
     - [x] 网关可以直接访问攻击者主机和靶机
       * 访问攻击者主机：
+  
     ![](img/2.1.jpg)
+
       * 访问靶机：
+  
     ![](img/2.2.jpg)
 
     - [x] 靶机的所有对外上下行流量必须经过网关
       * intnet1：XP访问cuc官网，Kail同时ping www.bilibili.com。
+  
     ![](img/3.1.jpg)
+
       * intnet2：Ubuntu通过Firefox访问知乎，XP同时ping wwww.zihhu.com。这里由于数据太多未能截全。
+  
     ![](img/3.1.jpg)
 
     ![](img/XP1flow.PNG)  
@@ -88,17 +94,29 @@ iface enp0s3 inet dhcp
   
         这里我以能否ping通百度作为标准。
       * 网关：
+  
     ![](img/4.0.jpg)
+
       * xp-victim-1：
+
     ![](img/4.1.jpg)
+
       * Kail-victim-1：
+  
     ![](img/4.2.jpg)
+
       * xp-victim-2：
+  
     ![](img/4.3.jpg)
+
       * Ubuntu-victim-2：
+  
     ![](img/4.4.jpg)
+
       * Kail-Attacker：
+  
     ![](img/4.5.jpg)
+
 
 
 
