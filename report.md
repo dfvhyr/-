@@ -92,17 +92,17 @@ iface enp0s3 inet dhcp
   
         这里我以能否ping通百度作为标准。
       * 网关：
-      ![](img/4.0.jpg)
+    ![](img/4.0.jpg)
       * xp-victim-1：
-      ![](img/4.1.jpg)
+    ![](img/4.1.jpg)
       * Kail-victim-1：
-      ![](img/4.2.jpg)
+    ![](img/4.2.jpg)
       * xp-victim-2：
-      ![](img/4.3.jpg)
+    ![](img/4.3.jpg)
       * Ubuntu-victim-2：
-      ![](img/4.4.jpg)
+    ![](img/4.4.jpg)
       * Kail-Attacker：
-      ![](img/4.5.jpg)
+    ![](img/4.5.jpg)
 
 
 
